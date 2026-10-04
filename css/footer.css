@@ -69,28 +69,26 @@
 .subscribe-input {
   display: flex;
   align-items: center;
-
   width: 264px;
   height: 40px;
   padding: 8px 16px;
-
   font-size: 12px;
-  line-height: 2;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: #fff;
-
   background-color: transparent;
   border: 1px solid #fff;
   border-radius: 4px;
   outline: transparent;
-
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .subscribe-input::placeholder {
   color: #fff;
 }
+
 .subscribe-input:focus {
-  border-color: #4d5ae5;
+  border-color: #31d0aa;
 }
 .subscribe-btn {
   display: flex;
@@ -114,7 +112,7 @@
 }
 .subscribe-btn:hover,
 .subscribe-btn:focus {
-  background-color: #404bbf;
+  background-color: #31d0aa;
 }
 .subscribe-icon {
   fill: currentColor;
